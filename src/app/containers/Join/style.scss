@@ -1,0 +1,24 @@
+.join {
+  .inside-edit.close {
+    .top-row {
+      border: 0;
+    }
+  }
+  .inside-edit.open {
+    .top-row {
+      height: 43px;
+    }
+  }
+
+
+  .api-row {
+    border: 0;
+    >td {
+      margin-top: 20px;
+    }
+    &.close {
+      display: none;
+    }
+
+  }
+}

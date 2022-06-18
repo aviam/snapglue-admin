@@ -1,0 +1,21 @@
+
+#edit-modal {
+  .swagger-textarea {
+    height: 400px;
+  }
+}
+
+
+
+.card {
+  .card-title {
+    font-weight: 700 !important;
+  }
+  .card-action {
+    >a {
+      .material-icons{
+        font-size: 20px;
+      }
+    }
+  }
+}
